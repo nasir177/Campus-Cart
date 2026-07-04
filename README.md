@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="assets/app_banner.png" alt="CampusCart Banner" width="300" />
-</div>
-
 # CampusCart
 
 **10-minute campus delivery. Food, stationery, and xerox services delivered to your room.**

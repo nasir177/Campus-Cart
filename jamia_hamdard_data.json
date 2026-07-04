@@ -1,0 +1,259 @@
+{
+  "hubId": "jamia_hamdard_hub",
+  "campusName": "Jamia Hamdard University, New Delhi",
+  "latitude": 28.5142,
+  "longitude": 77.2601,
+  "blocks": [
+    {
+      "id": "hostel_block_a",
+      "name": "Hostel Block A",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["Central Library Canteen", "Room 101", "Room 102", "Common Room"] },
+        { "id": "floor_1", "name": "1st Floor", "nodes": ["Room 105", "Room 106", "Room 107"] },
+        { "id": "floor_2", "name": "2nd Floor", "nodes": ["Room 201", "Room 202", "Room 203"] },
+        { "id": "floor_3", "name": "3rd Floor", "nodes": ["Room 301", "Room 302", "Common Study Room"] }
+      ]
+    },
+    {
+      "id": "science_faculty_block",
+      "name": "Science Faculty Block",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["Science Café", "Main Dean Office", "Computer Lab 1"] },
+        { "id": "floor_1", "name": "1st Floor", "nodes": ["Seminar Hall", "Faculty Room A", "Lab 102"] }
+      ]
+    },
+    {
+      "id": "pharmacy_block",
+      "name": "Pharmacy Block",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["Pharmacy Canteen", "Reception", "Lab Block 1"] },
+        { "id": "floor_1", "name": "1st Floor", "nodes": ["Lecture Hall A", "Lecture Hall B"] }
+      ]
+    },
+    {
+      "id": "bba_block",
+      "name": "BBA / Management Block",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["BBA Canteen", "Admin Office", "Conference Room"] },
+        { "id": "floor_1", "name": "1st Floor", "nodes": ["Seminar Hall BBA", "Library Room"] }
+      ]
+    },
+    {
+      "id": "hospital_block",
+      "name": "Hakeem Abdul Hameed Hospital Block",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["Hospital Canteen", "OPD Waiting", "Emergency Ward"] },
+        { "id": "floor_1", "name": "1st Floor", "nodes": ["Ward A", "Ward B", "Nurse Station"] }
+      ]
+    },
+    {
+      "id": "recharge_zone_block",
+      "name": "Student Activity Centre",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["Recharge Zone Café", "Sports Room", "Music Room"] }
+      ]
+    },
+    {
+      "id": "central_library_block",
+      "name": "Central Library Block",
+      "floors": [
+        { "id": "floor_g", "name": "Ground Floor", "nodes": ["Xerox Shop", "Issue Counter", "Reading Hall"] },
+        { "id": "floor_1", "name": "1st Floor", "nodes": ["Digital Library", "Research Section"] }
+      ]
+    }
+  ],
+  "canteens": [
+    {
+      "id": "jh_central_lib",
+      "name": "Central Library Canteen",
+      "building": "Central Library Block",
+      "description": "The busiest canteen on campus. Serves hot meals, chaats, snacks, and beverages right next to the library entrance.",
+      "coordinates": { "latitude": 28.5142, "longitude": 77.2601 },
+      "menu": [
+        { "id": "lib_chole", "name": "Chole Bhature", "price": 60, "originalPrice": 70, "category": "Lunch", "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Classic North Indian chole with 2 fluffy bhaturas." },
+        { "id": "lib_lays", "name": "Lays Spanish Tomato", "price": 20, "category": "Namkeen", "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=500&q=80", "weightOrQty": "26g", "description": "Crispy tomato-flavoured potato chips." },
+        { "id": "lib_samosa", "name": "Aloo Samosa (2 pcs)", "price": 25, "category": "Snacks", "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=500&q=80", "weightOrQty": "2 pcs", "description": "Golden fried samosas with mint chutney." },
+        { "id": "lib_chai", "name": "Masala Chai", "price": 15, "category": "Beverages", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80", "weightOrQty": "200ml", "description": "Freshly brewed spiced tea with ginger." },
+        { "id": "lib_veg_roll", "name": "Veg Kathi Roll", "price": 50, "originalPrice": 60, "category": "Snacks", "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 roll", "description": "Crispy paratha wrapped with spiced veggies." },
+        { "id": "lib_maggi", "name": "Veg Maggi", "price": 30, "category": "Snacks", "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Classic campus Maggi noodles with veggies." },
+        { "id": "lib_cold_coffee", "name": "Cold Coffee", "price": 50, "originalPrice": 60, "category": "Beverages", "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Chilled blended coffee with milk and ice." },
+        { "id": "lib_dal_rice", "name": "Dal Rice", "price": 55, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Comforting yellow dal with steamed rice." },
+        { "id": "lib_bread_omelette", "name": "Bread Omelette", "price": 40, "category": "Snacks", "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=500&q=80", "weightOrQty": "2 slices", "description": "Fluffy 2-egg omelette with buttered toast." },
+        { "id": "lib_poha", "name": "Poha", "price": 25, "category": "Snacks", "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Flattened rice with mustard, peas, and lemon." },
+        { "id": "lib_nimbu_pani", "name": "Nimbu Pani", "price": 20, "category": "Beverages", "image": "https://images.unsplash.com/photo-1597481499750-3e6b22637536?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Fresh lemonade with roasted cumin." },
+        { "id": "lib_paneer_tikka", "name": "Paneer Tikka (4 pcs)", "price": 70, "originalPrice": 80, "category": "Snacks", "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=80", "weightOrQty": "4 pcs", "description": "Grilled spiced paneer cubes with mint chutney." },
+        { "id": "lib_kurkure", "name": "Kurkure Masala", "price": 20, "category": "Namkeen", "image": "https://images.unsplash.com/photo-1621972750749-0fbb1abb7736?auto=format&fit=crop&w=500&q=80", "weightOrQty": "40g", "description": "Tangy masala crunchy corn puffs." },
+        { "id": "lib_banana_milkshake", "name": "Banana Milkshake", "price": 45, "category": "Beverages", "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Thick creamy banana blended with chilled milk." },
+        { "id": "lib_idli_sambar", "name": "Idli Sambar (3 pcs)", "price": 35, "category": "Snacks", "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=500&q=80", "weightOrQty": "3 pcs", "description": "Soft idlis served with tangy sambar and coconut chutney." }
+      ]
+    },
+    {
+      "id": "jh_pharmacy",
+      "name": "Pharmacy Canteen",
+      "building": "Pharmacy Block",
+      "description": "Quick-service canteen for pharmacy and allied health science students. Specialises in light snacks and hot drinks.",
+      "coordinates": { "latitude": 28.5135, "longitude": 77.2592 },
+      "menu": [
+        { "id": "pharm_samosa", "name": "Aloo Samosa (Set of 2)", "price": 25, "category": "Snacks", "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=500&q=80", "weightOrQty": "2 pcs", "description": "Crispy golden samosas with green chutney." },
+        { "id": "pharm_kurkure", "name": "Kurkure Masala Munch", "price": 20, "category": "Namkeen", "image": "https://images.unsplash.com/photo-1621972750749-0fbb1abb7736?auto=format&fit=crop&w=500&q=80", "weightOrQty": "40g", "description": "Spicy masala crunchy puffs." },
+        { "id": "pharm_chai", "name": "Ginger Lemon Tea", "price": 15, "category": "Beverages", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80", "weightOrQty": "200ml", "description": "Refreshing ginger lemon tea with honey." },
+        { "id": "pharm_bread_butter", "name": "Butter Toast", "price": 20, "category": "Snacks", "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=500&q=80", "weightOrQty": "2 slices", "description": "Buttered whole wheat toast, lightly toasted." },
+        { "id": "pharm_veg_sandwich", "name": "Veg Grilled Sandwich", "price": 40, "originalPrice": 50, "category": "Snacks", "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Grilled sandwich stuffed with fresh veggies and cheese." },
+        { "id": "pharm_dal_makhani", "name": "Dal Makhani with Roti", "price": 75, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Creamy black dal makhani with 2 butter rotis." },
+        { "id": "pharm_lassi", "name": "Sweet Lassi", "price": 30, "category": "Beverages", "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Chilled sweet yogurt drink, thick and creamy." },
+        { "id": "pharm_mix_veg", "name": "Mix Veg with Paratha", "price": 65, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Seasonal mixed vegetables with a crispy paratha." },
+        { "id": "pharm_cold_coffee", "name": "Iced Coffee", "price": 45, "category": "Beverages", "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Strong cold brew coffee on ice." },
+        { "id": "pharm_upma", "name": "Upma", "price": 30, "category": "Snacks", "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Semolina upma with mustard seeds and curry leaves." },
+        { "id": "pharm_rajma_rice", "name": "Rajma Chawal", "price": 70, "originalPrice": 80, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Hearty kidney bean curry served with jeera rice." },
+        { "id": "pharm_paneer_roll", "name": "Paneer Kathi Roll", "price": 55, "category": "Snacks", "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 roll", "description": "Soft roti wrapped with masala paneer and onions." },
+        { "id": "pharm_mango_shake", "name": "Mango Milkshake", "price": 50, "originalPrice": 60, "category": "Beverages", "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Fresh mango blended with chilled full-cream milk." },
+        { "id": "pharm_puri_sabzi", "name": "Puri Bhaji (4 pcs)", "price": 45, "category": "Snacks", "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=500&q=80", "weightOrQty": "4 puri", "description": "Fluffy deep-fried puris with aloo sabzi." },
+        { "id": "pharm_mineral_water", "name": "Mineral Water Bottle", "price": 20, "category": "Beverages", "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "500ml", "description": "Chilled packaged drinking water." }
+      ]
+    },
+    {
+      "id": "jh_bba",
+      "name": "BBA Canteen",
+      "building": "BBA / Management Block",
+      "description": "Premium canteen for management students. Wider variety of items including continental snacks and fresh juices.",
+      "coordinates": { "latitude": 28.5150, "longitude": 77.2615 },
+      "menu": [
+        { "id": "bba_thali", "name": "Veg Regular Thali", "price": 80, "originalPrice": 95, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "Full Thali", "description": "Dal, sabzi, rice, 2 rotis, salad, and pickle." },
+        { "id": "bba_chai", "name": "Masala Chai", "price": 15, "category": "Beverages", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80", "weightOrQty": "200ml", "description": "Classic spiced Indian tea." },
+        { "id": "bba_burger", "name": "Aloo Tikki Burger", "price": 45, "category": "Snacks", "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Crispy aloo tikki patty with lettuce, onion, and sauces in a soft bun." },
+        { "id": "bba_spring_roll", "name": "Veg Spring Roll (4 pcs)", "price": 55, "originalPrice": 65, "category": "Snacks", "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=500&q=80", "weightOrQty": "4 pcs", "description": "Crispy spring rolls filled with spiced veggies and noodles." },
+        { "id": "bba_pasta", "name": "Masala Pasta", "price": 65, "category": "Snacks", "image": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Penne pasta tossed in spicy Indian-style tomato masala." },
+        { "id": "bba_paneer_butter", "name": "Paneer Butter Masala with Roti", "price": 90, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Rich tomato-cream paneer curry with 2 buttered rotis." },
+        { "id": "bba_cold_coffee", "name": "Cold Coffee (Thick)", "price": 55, "originalPrice": 65, "category": "Beverages", "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Thick blended iced coffee topped with cream." },
+        { "id": "bba_nachos", "name": "Cheese Nachos", "price": 60, "category": "Snacks", "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Tortilla chips topped with melted cheese and jalapeños." },
+        { "id": "bba_fresh_juice", "name": "Fresh Orange Juice", "price": 50, "category": "Beverages", "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Freshly squeezed orange juice, no sugar added." },
+        { "id": "bba_chowmein", "name": "Veg Chow Mein", "price": 60, "originalPrice": 70, "category": "Snacks", "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Stir-fried noodles with vegetables in soya sauce." },
+        { "id": "bba_momos", "name": "Steamed Veg Momos (6 pcs)", "price": 50, "category": "Snacks", "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80", "weightOrQty": "6 pcs", "description": "Soft steamed dumplings with spicy red chutney." },
+        { "id": "bba_lemonade", "name": "Virgin Mojito", "price": 60, "originalPrice": 75, "category": "Beverages", "image": "https://images.unsplash.com/photo-1597481499750-3e6b22637536?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Mint, lemon, and soda with crushed ice." },
+        { "id": "bba_wafers", "name": "Bingo Mad Angles", "price": 20, "category": "Namkeen", "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=500&q=80", "weightOrQty": "30g", "description": "Triangular flavoured chips." },
+        { "id": "bba_chole_rice", "name": "Chole Rice", "price": 70, "category": "Lunch", "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Spiced chickpea curry over steamed basmati rice." },
+        { "id": "bba_hot_chocolate", "name": "Hot Chocolate", "price": 55, "category": "Beverages", "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Rich dark chocolate drink topped with marshmallows." }
+      ]
+    },
+    {
+      "id": "jh_classic",
+      "name": "Classic Cafe",
+      "building": "Student Activity Centre",
+      "description": "Trendy student café with a wide menu of Continental and Indian fusion bites. A social hub for all departments.",
+      "coordinates": { "latitude": 28.5128, "longitude": 77.2608 },
+      "menu": [
+        { "id": "classic_burger", "name": "Aloo Tikki Burger", "price": 45, "category": "Snacks", "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Juicy aloo tikki patty in a sesame bun." },
+        { "id": "classic_pizza", "name": "Margherita Pizza (6-inch)", "price": 80, "originalPrice": 95, "category": "Snacks", "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=80", "weightOrQty": "6-inch", "description": "Classic thin-crust pizza with mozzarella and basil." },
+        { "id": "classic_frappe", "name": "Caramel Frappe", "price": 75, "category": "Beverages", "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "350ml", "description": "Blended caramel coffee with whipped cream." },
+        { "id": "classic_sandwich", "name": "Club Sandwich", "price": 65, "originalPrice": 75, "category": "Snacks", "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Triple-decker toasted sandwich with veggies and cheese." },
+        { "id": "classic_smoothie", "name": "Mango Smoothie", "price": 70, "category": "Beverages", "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Fresh mango, yogurt, and honey blended smooth." },
+        { "id": "classic_waffles", "name": "Belgian Waffles", "price": 90, "originalPrice": 110, "category": "Snacks", "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Crispy waffles with chocolate sauce and fresh fruit." },
+        { "id": "classic_chai", "name": "Kulhad Chai", "price": 20, "category": "Beverages", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80", "weightOrQty": "150ml", "description": "Traditional chai served in an earthen kulhad." },
+        { "id": "classic_pav_bhaji", "name": "Pav Bhaji", "price": 60, "category": "Snacks", "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Spiced mixed vegetable bhaji with buttered pav." },
+        { "id": "classic_momos_fried", "name": "Fried Momos (6 pcs)", "price": 60, "originalPrice": 70, "category": "Snacks", "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80", "weightOrQty": "6 pcs", "description": "Crispy pan-fried momos with sriracha dipping sauce." },
+        { "id": "classic_oreo_shake", "name": "Oreo Milkshake", "price": 75, "category": "Beverages", "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80", "weightOrQty": "350ml", "description": "Crushed Oreos blended with vanilla ice cream." },
+        { "id": "classic_pasta_white", "name": "White Sauce Pasta", "price": 70, "category": "Snacks", "image": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Creamy béchamel pasta with button mushrooms." },
+        { "id": "classic_lemonade_mint", "name": "Mint Lemonade", "price": 45, "category": "Beverages", "image": "https://images.unsplash.com/photo-1597481499750-3e6b22637536?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Refreshing mint lemonade with black salt." },
+        { "id": "classic_chocolate_brownie", "name": "Chocolate Brownie", "price": 55, "originalPrice": 65, "category": "Snacks", "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Dense fudgy chocolate brownie, served warm." },
+        { "id": "classic_noodles", "name": "Hakka Noodles", "price": 65, "category": "Snacks", "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Stir-fried Hakka noodles with colourful peppers." },
+        { "id": "classic_masala_coke", "name": "Masala Coke", "price": 35, "category": "Beverages", "image": "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Chilled Coke with roasted cumin and black salt." }
+      ]
+    },
+    {
+      "id": "jh_hospital",
+      "name": "Hakeem Abdul Hameed Hospital Canteen",
+      "building": "Hospital Block",
+      "description": "Wholesome and hygienic canteen inside the hospital premises. Serves nutritious meals for patients, staff, and students.",
+      "coordinates": { "latitude": 28.5118, "longitude": 77.2585 },
+      "menu": [
+        { "id": "hosp_dal", "name": "Dal Makhani with 2 Butter Roti", "price": 90, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Slow-cooked black dal in rich tomato-cream sauce." },
+        { "id": "hosp_khichdi", "name": "Vegetable Khichdi", "price": 50, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Nutritious one-pot rice and lentil dish with vegetables." },
+        { "id": "hosp_thali", "name": "Full Meal Thali", "price": 100, "originalPrice": 120, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "Full Thali", "description": "Complete balanced meal: dal, sabzi, rice, chapati, pickle, and salad." },
+        { "id": "hosp_soup", "name": "Veg Clear Soup", "price": 35, "category": "Snacks", "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Light and nutritious vegetable broth." },
+        { "id": "hosp_curd_rice", "name": "Curd Rice", "price": 45, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Chilled curd mixed rice with tempered mustard seeds." },
+        { "id": "hosp_moong_dal", "name": "Moong Dal Soup", "price": 40, "category": "Snacks", "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Light yellow moong dal, ideal for recovery meals." },
+        { "id": "hosp_chapati", "name": "Plain Chapati (4 pcs)", "price": 20, "category": "Lunch", "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=500&q=80", "weightOrQty": "4 pcs", "description": "Soft whole wheat rotis, freshly made." },
+        { "id": "hosp_sabudana_khichdi", "name": "Sabudana Khichdi", "price": 45, "category": "Snacks", "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Tapioca pearls stir-fried with peanuts and spices." },
+        { "id": "hosp_lemon_rice", "name": "Lemon Rice", "price": 40, "category": "Lunch", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Tangy South Indian style lemon rice with curry leaves." },
+        { "id": "hosp_warm_milk", "name": "Warm Turmeric Milk", "price": 25, "category": "Beverages", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80", "weightOrQty": "200ml", "description": "Immunity-boosting haldi doodh." },
+        { "id": "hosp_upma", "name": "Semolina Upma", "price": 30, "category": "Snacks", "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Fluffy semolina with curry leaves and vegetables." },
+        { "id": "hosp_buttermilk", "name": "Salted Buttermilk (Chaas)", "price": 20, "category": "Beverages", "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Chilled spiced buttermilk with cumin and mint." },
+        { "id": "hosp_banana", "name": "Fresh Banana", "price": 10, "category": "Snacks", "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Fresh ripe banana, a quick energy booster." },
+        { "id": "hosp_poha", "name": "Flattened Rice Poha", "price": 25, "category": "Snacks", "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 plate", "description": "Light steamed poha with mustard and peas." },
+        { "id": "hosp_herbal_tea", "name": "Herbal Green Tea", "price": 20, "category": "Beverages", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80", "weightOrQty": "150ml", "description": "Calming green tea with tulsi and lemon." }
+      ]
+    },
+    {
+      "id": "jh_recharge",
+      "name": "Recharge Zone",
+      "building": "Student Activity Centre",
+      "description": "The go-to coffee and energy zone on campus. Serves premium coffee, cold beverages, and quick energy bites.",
+      "coordinates": { "latitude": 28.5139, "longitude": 77.2622 },
+      "menu": [
+        { "id": "recharge_cold_coffee", "name": "Frappe Cold Coffee", "price": 50, "originalPrice": 65, "category": "Beverages", "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "350ml", "description": "Blended cold coffee with ice cream and cream." },
+        { "id": "recharge_espresso", "name": "Double Espresso Shot", "price": 45, "category": "Beverages", "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=500&q=80", "weightOrQty": "60ml", "description": "Strong concentrated double espresso." },
+        { "id": "recharge_monster", "name": "Monster Energy Drink", "price": 110, "originalPrice": 125, "category": "Beverages", "image": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Original green Monster energy drink, ice cold." },
+        { "id": "recharge_protein_bar", "name": "Protein Bar (RiteBite)", "price": 60, "category": "Snacks", "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "30g", "description": "High protein snack bar with chocolate coating." },
+        { "id": "recharge_avocado_toast", "name": "Avocado Toast", "price": 80, "originalPrice": 90, "category": "Snacks", "image": "https://images.unsplash.com/photo-1603046891726-36bfd957e0bf?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 slice", "description": "Sourdough toast with mashed avocado and chilli flakes." },
+        { "id": "recharge_matcha_latte", "name": "Matcha Latte", "price": 70, "category": "Beverages", "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Japanese-style matcha with oat milk." },
+        { "id": "recharge_granola_bowl", "name": "Granola Yogurt Bowl", "price": 75, "originalPrice": 90, "category": "Snacks", "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 bowl", "description": "Greek yogurt topped with granola, honey, and berries." },
+        { "id": "recharge_nimbu_soda", "name": "Nimbu Soda Fizz", "price": 30, "category": "Beverages", "image": "https://images.unsplash.com/photo-1597481499750-3e6b22637536?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Lemon juice with soda water and black salt." },
+        { "id": "recharge_energy_smoothie", "name": "Green Detox Smoothie", "price": 85, "category": "Beverages", "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Spinach, banana, apple, and ginger blended fresh." },
+        { "id": "recharge_brownie", "name": "Dark Chocolate Brownie", "price": 55, "category": "Snacks", "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Fudgy, warm dark chocolate brownie." },
+        { "id": "recharge_americano", "name": "Black Americano", "price": 40, "category": "Beverages", "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=500&q=80", "weightOrQty": "200ml", "description": "Smooth espresso diluted with hot water." },
+        { "id": "recharge_trail_mix", "name": "Dry Fruits Trail Mix", "price": 50, "category": "Namkeen", "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80", "weightOrQty": "50g", "description": "Mixed nuts, raisins, and dried cranberries." },
+        { "id": "recharge_strawberry_shake", "name": "Strawberry Milkshake", "price": 65, "category": "Beverages", "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80", "weightOrQty": "300ml", "description": "Fresh strawberry blended with chilled milk and ice cream." },
+        { "id": "recharge_peanut_sandwich", "name": "Peanut Butter Banana Sandwich", "price": 45, "category": "Snacks", "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 pc", "description": "Wholegrain bread with peanut butter and banana slices." },
+        { "id": "recharge_hot_chocolate", "name": "Swiss Hot Chocolate", "price": 60, "category": "Beverages", "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=500&q=80", "weightOrQty": "250ml", "description": "Rich Swiss cocoa with steamed milk and cinnamon." }
+      ]
+    },
+    {
+      "id": "jh_xerox_shop",
+      "name": "Central Library Xerox Shop",
+      "building": "Central Library Block",
+      "description": "Campus printing and xerox centre. B&W and colour printing, binding, lamination, and document scanning services.",
+      "coordinates": { "latitude": 28.5143, "longitude": 77.2603 },
+      "menu": [
+        { "id": "xerox_bw_print", "name": "B&W Document Printing (per page)", "price": 2, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per page", "description": "Standard A4 black and white laser printing." },
+        { "id": "xerox_color_print", "name": "Colour Printing (per page)", "price": 10, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per page", "description": "Full-colour A4 inkjet printing." },
+        { "id": "xerox_spiral_bind", "name": "Spiral Binding", "price": 40, "originalPrice": 50, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "up to 100 pages", "description": "Spiral-bound document with hard cover." },
+        { "id": "xerox_lamination", "name": "A4 Lamination", "price": 20, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per sheet", "description": "Glossy or matte A4 lamination for certificates." },
+        { "id": "xerox_scan", "name": "Document Scanning (per page)", "price": 5, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per page", "description": "High-res scan to PDF or JPG format." },
+        { "id": "xerox_photocopy", "name": "Photocopy (per page)", "price": 1, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per page", "description": "Standard A4 photocopy from original document." },
+        { "id": "xerox_resume_print", "name": "Resume Printing (per copy)", "price": 15, "originalPrice": 20, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "1 copy", "description": "High-quality A4 resume printing on premium paper." },
+        { "id": "xerox_poster_a3", "name": "A3 Colour Poster Print", "price": 30, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per sheet", "description": "Full-colour A3 poster on glossy paper." },
+        { "id": "xerox_thesis_print", "name": "Thesis/Report Printing (per page)", "price": 3, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per page", "description": "Double-sided printing ideal for thesis and reports." },
+        { "id": "xerox_hard_bind", "name": "Hard Cover Binding", "price": 120, "originalPrice": 150, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "up to 200 pages", "description": "Professional hardbound binding for dissertations." },
+        { "id": "xerox_id_card_print", "name": "ID Card Printing (2 pcs)", "price": 50, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "2 cards", "description": "PVC-quality printed ID cards with lamination." },
+        { "id": "xerox_note_staple", "name": "Stapling / Punching (per set)", "price": 5, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per set", "description": "Stapling or 2-hole punching for documents." },
+        { "id": "xerox_a5_booklet", "name": "A5 Booklet Printing", "price": 45, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "up to 20 pages", "description": "Folded and stapled A5 booklet format." },
+        { "id": "xerox_express_delivery", "name": "Express Print (10-min SLA)", "price": 25, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "flat fee", "description": "Priority queue — get your prints in under 10 minutes." },
+        { "id": "xerox_cd_dvd_print", "name": "CD/DVD Label Printing", "price": 30, "category": "Services", "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=500&q=80", "weightOrQty": "per disc", "description": "Colour printed labels for CDs and DVDs." }
+      ]
+    }
+  ],
+  "xeroxShops": [
+    {
+      "id": "central_library_xerox",
+      "name": "Central Library Xerox",
+      "building": "Central Library Block",
+      "description": "High quality printing and binding close to the library entrance.",
+      "location": { "latitude": 28.5143, "longitude": 77.2603 },
+      "pdfs": [
+        { "name": "Library_Assignment.pdf", "url": "https://example.com/library_assignment.pdf", "size": "1.8 MB" },
+        { "name": "Notes_Compilation.pdf", "url": "https://example.com/notes_compilation.pdf", "size": "2.4 MB" }
+      ]
+    },
+    {
+      "id": "pharmacy_building_xerox",
+      "name": "Pharmacy Building Xerox",
+      "building": "Pharmacy Block",
+      "description": "Express xerox shop for lab reports and research printouts.",
+      "location": { "latitude": 28.5135, "longitude": 77.2592 },
+      "pdfs": [
+        { "name": "Research_Poster.pdf", "url": "https://example.com/research_poster.pdf", "size": "3.2 MB" },
+        { "name": "Lab_Report.pdf", "url": "https://example.com/lab_report.pdf", "size": "2.1 MB" }
+      ]
+    }
+  ]
+}

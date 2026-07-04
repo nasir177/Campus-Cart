@@ -25,13 +25,28 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+firebase-debug.log
 
 # macOS
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# Env files
+.env
+.env.*
+server/.env
+server/node_modules/
+
+# API keys and Service Accounts
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!app.json
+!eas.json
+!jamia_hamdard_data.json
+!server/package.json
+!server/package-lock.json
 
 # typescript
 *.tsbuildinfo
