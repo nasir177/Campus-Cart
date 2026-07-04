@@ -18,20 +18,15 @@ The following screens demonstrate the complete user journey from launch to order
 
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="50%">
       <img src="assets/screenshot/splash_screen.png" width="200" alt="Splash Screen" /><br/>
       <b>Splash Screen</b><br/>
       <sub>App launch with branding</sub>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="50%">
       <img src="assets/screenshot/auth_screen.png" width="200" alt="Auth Screen" /><br/>
       <b>Authentication</b><br/>
       <sub>Sign in and registration</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/screenshot/campus_banner.png" width="200" alt="Campus Banner" /><br/>
-      <b>Campus Detection</b><br/>
-      <sub>Auto-detects Jamia Hamdard campus</sub>
     </td>
   </tr>
 </table>
@@ -80,7 +75,7 @@ The following screens demonstrate the complete user journey from launch to order
       <sub>Items, delivery location picker, and bill summary</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshot/card_payment_stripe .png" width="220" alt="Stripe Payment" /><br/>
+      <img src="assets/screenshot/card_payment_stripe.png" width="220" alt="Stripe Payment" /><br/>
       <b>Card Payment via Stripe</b><br/>
       <sub>Native Stripe payment sheet for secure card payments</sub>
     </td>
