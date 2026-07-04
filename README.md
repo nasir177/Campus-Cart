@@ -487,5 +487,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Developed at Jamia Hamdard University, New Delhi, as a real-world campus utility application.
 
 CampusCart is a student-built product. Every canteen, block, floor, and room in the application is a real location on the Jamia Hamdard campus. The 10-minute delivery promise reflects the actual geography of the university and the walking distances between its buildings.
-#   C a m p u s - C a r t  
- 
+#
